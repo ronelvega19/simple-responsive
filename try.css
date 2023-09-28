@@ -1,0 +1,71 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+span{
+    color: rgb(5, 5, 150);
+}
+h1{
+    font-size: 6rem;
+}
+p{
+    margin: 0;
+    
+    font-size: 2rem;
+}
+h2{
+    margin: 0;
+    font-size: 3rem;
+}
+
+.main{
+
+   flex: 1;
+    
+}
+.card{
+    display: inline-block;
+    margin-top: 150px;
+    width: 45%;
+
+}
+.right{
+    float: right;
+}
+
+.angela{
+    width: 250px;
+    float: left;
+    margin-right: 20px;
+}
+.computer{
+    width: 250px;
+    float: left;
+    margin-right: 20px;
+}
+
+@media(max-width: 680px){
+    h1{
+        text-align: center;
+    }
+    .card{
+        align-items: center;
+        width: 100%;
+        display: block;
+        
+    }
+    .angela{
+        width: 90%;
+      
+    }
+    .computer{
+        align-items: center;
+        width: 90%;
+       
+    }
+
+   
+}
+
